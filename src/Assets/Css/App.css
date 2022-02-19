@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: IRANSansWeb;
+}
+
+
+@font-face {
+    font-family: 'BYekan';
+    font-style: normal;
+    font-weight: 300;
+    src: url("../../Assets/Fonts/BYekan.woff") format('truetype');
+}
+
+@font-face {
+    font-family: 'IRANSansWeb';
+    font-style: normal;
+    font-weight: 300;
+    src: url("../../Assets/Fonts/IRANSansWeb.woff2") format('truetype');
+}
+
+@font-face {
+    font-family: 'IRANSansWeb_Bold';
+    font-style: normal;
+    font-weight: 300;
+    src: url("../../Assets/Fonts/IRANSansWeb_Bold.woff2") format('truetype');
+}
+
+
+::-webkit-scrollbar {
+    width: 9px;
+    height: 9px;
+}
+
+::-webkit-scrollbar-button {
+    width: 0;
+    height: 0;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #400080;
+    border: 0 none #ffffff;
+    border-radius: 80px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #000080;
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: #c0c0c0;
+}
+
+::-webkit-scrollbar-track {
+    background: #c0c0c0;
+    border: 0 none #ffffff;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-track:hover {
+    background: #808080;
+}
+
+::-webkit-scrollbar-track:active {
+    background: #333333;
+}
+
+::-webkit-scrollbar-corner {
+    background: transparent;
+}

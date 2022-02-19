@@ -1,0 +1,67 @@
+.NotFoundContainer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../img/NotFound.png") #151729;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .5);
+}
+
+.NotFoundContainer .Content {
+    max-width: 600px;
+    text-align: center;
+}
+
+.NotFoundContainer .Content h2 {
+    font-size: 18vw;
+    color: #fff;
+    line-height: 1em;
+}
+
+.NotFoundContainer .Content h4 {
+    position: relative;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #111;
+    background: #fff;
+    font-weight: 300;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.NotFoundContainer .Content p {
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.NotFoundButton {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff0562;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 25px;
+    border-radius: 25px;
+    border-bottom: 4px solid #d00d56;
+}
+
+.SignInBackground {
+    background: url("../img/NotFound.png") #151729;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
